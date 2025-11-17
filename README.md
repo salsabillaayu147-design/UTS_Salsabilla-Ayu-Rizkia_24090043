@@ -12,7 +12,7 @@
  
  # Link Repository & Deployment
  
-   • LINK REPOSITORY = https://github.com/salsabillaayu147-design/UTS_Salsabilla-Ayu-Rizkia_24090043
+   • LINK REPOSITORY = (https://github.com/salsabillaayu147-design/UTS_Salsabilla-Ayu-Rizkia_24090043/tree/main)
    
    • LINK DEPLOY = (https://salsabillaayu147-design.github.io/UTS_Salsabilla-Ayu-Rizkia_24090043/)
 
