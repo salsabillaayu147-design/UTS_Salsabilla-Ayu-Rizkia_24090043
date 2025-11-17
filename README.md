@@ -1,17 +1,22 @@
-#UTS Pemrograman Web 1 - Sistem Manajemen Produk
-#Identitas Mahasiswa
- • Nama: AIN JELITA IKHWATI
- • NIM: 24090037
+# UTS Pemrograman Web 1 - Sistem Manajemen Produk
+
+# Identitas Mahasiswa
+
+ • Nama: SALSABILLA AYU RIZKIA
+ 
+ • NIM: 24090043
+ 
  • Prodi: D4 Teknik Informatika
+ 
  • Kelas: B
  
- #Link Repository & Deployment
+ # Link Repository & Deployment
+ 
+   • LINK REPOSITORY = https://github.com/salsabillaayu147-design/UTS_Salsabilla-Ayu-Rizkia_24090043
+   
+   • LINK DEPLOY = https://salsabillaayu147-design.github.io/UTS_Salsabilla-Ayu-Rizkia_24090043/
 
-  LINK REPOSITORY = https://github.com/salsabillaayu147-design/UTS_Salsabilla-Ayu-Rizkia_24090043
-
-  LINK DEPLOY = https://salsabillaayu147-design.github.io/UTS_Salsabilla-Ayu-Rizkia_24090043/
-
-#Deskripsi Project
+# Deskripsi Project
 
 1. Halaman Login (index.html)
 Ini adalah halaman pertama yang diakses pengguna.
