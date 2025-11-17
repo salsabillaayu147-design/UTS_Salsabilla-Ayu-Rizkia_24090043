@@ -7,11 +7,15 @@ LINK DEPLOY = https://salsabillaayu147-design.github.io/UTS_Salsabilla-Ayu-Rizki
 1. Halaman Login (index.html)
 Ini adalah halaman pertama yang diakses pengguna.
 
-a. Fungsi Utama: Digunakan untuk memvalidasi akses pengguna.
-b. Spesifikasi:
-• Form berisi dua input: Email (sebagai username) dan Password (diisi dengan NIM). 
-• Saat tombol "Login" diklik, JavaScript akan memvalidasi bahwa Email dan Password/NIM tidak boleh kosong. 
-• Jika validasi berhasil, akan menampilkan pesan "Login berhasil" lalu melakukan redirect ke dashboard.html.
+   a. Fungsi Utama: Digunakan untuk memvalidasi akses pengguna.
+   
+   b. Spesifikasi:
+   
+      • Form berisi dua input: Email (sebagai username) dan Password (diisi dengan NIM). 
+      
+      • Saat tombol "Login" diklik, JavaScript akan memvalidasi bahwa Email dan Password/NIM tidak boleh kosong. 
+      
+      • Jika validasi berhasil, akan menampilkan pesan "Login berhasil" lalu melakukan redirect ke dashboard.html.
 
 2. Halaman Dashboard (dashboard.html)
 Ini adalah halaman landing page setelah pengguna berhasil login. 
