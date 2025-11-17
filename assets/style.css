@@ -1,0 +1,300 @@
+/* ===================================================
+   GAYA UMUM DAN RESET
+   =================================================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; 
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===================================================
+   1. HALAMAN LOGIN
+   =================================================== */
+.login-page-container {
+    display: flex;
+    min-height: 100vh; 
+}
+.illustration-area {
+    flex: 0 0 40%; 
+    background-color: #ffffff;
+    border-right: 1px solid #f0f0f0; 
+    
+    /* Styling untuk memusatkan gambar */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.login-illustration-img {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
+}
+
+.login-form-area {
+    flex: 1; 
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+.login-form-area h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.input-icon-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-icon-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0a0a0; 
+    font-size: 16px;
+}
+.input-icon-group input {
+    width: 100%;
+    padding: 15px 15px 15px 45px; 
+    border: 1px solid #e0e0e0;
+    border-radius: 8px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.main-btn {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    transition: all 0.2s;
+}
+.main-btn:hover {
+    background-color: #f0f0f0;
+}
+.or {
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 0.1em;
+    margin: 30px 0;
+    color: #a0a0a0;
+}
+.or span {
+    background: #fff;
+    padding: 0 10px;
+}
+.social-login-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+.social-login {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #555;
+}
+.social-login i {
+    font-size: 18px;
+}
+.signup {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* ===================================================
+   2. & 3. LAYOUT SIDEBAR DAN KONTEN UTAMA
+   =================================================== */
+.main-layout {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 80px; 
+    background-color: #ffffff; 
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #a0a0a0; 
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px; 
+    transition: background-color 0.2s, color 0.2s;
+}
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a.active {
+    background-color: #f0f0f0; 
+    color: #333;
+}
+.content {
+    flex-grow: 1;
+    padding: 40px;
+}
+.content header {
+    margin-bottom: 30px;
+}
+.content header h2 {
+    color: #343a40;
+    font-size: 30px;
+    font-weight: 800; 
+}
+
+/* ===================================================
+   2. HALAMAN DASHBOARD (Summary Cards)
+   =================================================== */
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
+    margin-bottom: 30px;
+}
+.summary-card {
+    background-color: #fff;
+    padding: 30px 20px; 
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-icon {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #f0f0f0; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #a0a0a0; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.summary-card:nth-child(3) .card-icon { 
+    color: #38c172; 
+}
+.card-label {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+.card-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+}
+.empty-placeholder {
+    height: 200px; 
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+    margin-bottom: 30px;
+    border: 1px solid #f0f0f0; 
+}
+.main-btn-action { 
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.main-btn-action:hover {
+    background-color: #218838;
+}
+
+/* ===================================================
+   3. HALAMAN LIST DATA PRODUCT (Tabel)
+   =================================================== */
+.product-list {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden; 
+    padding: 20px; 
+}
+
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#productTable thead th {
+    background-color: #fff;
+    padding: 15px 10px;
+    text-align: left;
+    color: #343a40;
+    font-weight: bold;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+#productTable tbody td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: middle;
+}
+
+#productTable tbody tr:last-child td {
+    border-bottom: none; 
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #a0a0a0; 
+    transition: color 0.2s;
+}
+
+.action-btn:hover {
+    color: #333;
+}
