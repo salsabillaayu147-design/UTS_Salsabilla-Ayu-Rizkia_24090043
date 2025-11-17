@@ -20,19 +20,29 @@ Ini adalah halaman pertama yang diakses pengguna.
 2. Halaman Dashboard (dashboard.html)
 Ini adalah halaman landing page setelah pengguna berhasil login. 
 
-a. Fungsi Utama: Menyajikan ringkasan data produk secara cepat dan menyediakan navigasi.
-b. Spesifikasi:
-• Menampilkan judul "Dashboard" dan Sidebar Menu. 
-• Membuat tiga card summary yang menampilkan Total Produk, Total Penjualan, dan Total Revenue. 
-• Data ringkasan (summary) diambil dari array dummy JavaScript.Menggunakan Flexbox atau Grid CSS untuk menata card secara rapi dan responsif. 
-• Terdapat tombol "Lihat Data Produk" yang, ketika diklik, mengarahkan pengguna ke halaman products.html.
+   a. Fungsi Utama: Menyajikan ringkasan data produk secara cepat dan menyediakan navigasi.
+   
+   b. Spesifikasi:
+   
+      • Menampilkan judul "Dashboard" dan Sidebar Menu. 
+      
+      • Membuat tiga card summary yang menampilkan Total Produk, Total Penjualan, dan Total Revenue. 
+      
+      • Data ringkasan (summary) diambil dari array dummy JavaScript.Menggunakan Flexbox atau Grid CSS untuk menata card secara rapi dan responsif. 
+      
+      • Terdapat tombol "Lihat Data Produk" yang, ketika diklik, mengarahkan pengguna ke halaman products.html.
 
 3. Halaman List Data Produk (products.html)
 Ini adalah halaman inti untuk manajemen data. 
 
-a. Fungsi Utama: Menampilkan daftar lengkap data produk dalam format tabel dan memungkinkan manipulasi data (simulasi).
-b. Spesifikasi: 
-• Menampilkan tabel dengan kolom: No, Product Name, Price, Stock, dan Aksi.
-• Data diambil dari array of object (const products = [...]) di file JavaScript.
-• Tampilan dan aksi data dijalankan dengan manipulasi DOM.
-• Kolom Aksi berisi dua tombol/ikon: - Edit (\small \text{fas fa-pen}) \rightarrow Menampilkan alert "Edit produk (nama produk)". - Delete (\small \text{fas fa-trash}) \rightarrow Menghapus baris produk dari tabel menggunakan metode remove() DOM setelah muncul konfirmasi hapus.
+   a. Fungsi Utama: Menampilkan daftar lengkap data produk dalam format tabel dan memungkinkan manipulasi data (simulasi).
+   
+   b. Spesifikasi: 
+   
+      • Menampilkan tabel dengan kolom: No, Product Name, Price, Stock, dan Aksi.
+      
+      • Data diambil dari array of object (const products = [...]) di file JavaScript.
+      
+      • Tampilan dan aksi data dijalankan dengan manipulasi DOM.
+      
+      • Kolom Aksi berisi dua tombol/ikon: - Edit (\small \text{fas fa-pen}) \rightarrow Menampilkan alert "Edit produk (nama produk)". - Delete (\small \text{fas fa-trash}) \rightarrow          Menghapus baris produk dari tabel menggunakan metode remove() DOM setelah muncul konfirmasi hapus.
